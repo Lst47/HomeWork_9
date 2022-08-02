@@ -8,14 +8,14 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-        FormDate formDate = new FormDate();
-        formDate.day = 13;
-        formDate.month = 06;
-        formDate.year = 1999;
+        post.formDate.day = 13;
+        post.formDate.month = 06;
+        post.formDate.year = 1999;
 
         System.out.println(post.name);
-        }
     }
+}
+
 
 
 
